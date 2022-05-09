@@ -1,0 +1,25 @@
+#landing {
+  background-image: url(./pexels-littlehampton-bricks-4373152.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Signika', sans-serif;
+}
+button {
+  padding: 5px;
+}
+.navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+.bgi {
+  background-image: url(./pexels-littlehampton-bricks-4373152.jpg);
+}
+.container {
+  background-color: white;
+}
