@@ -1,4 +1,23 @@
-/* Landing */
+/* ??? */
+.h {
+  display: flex;
+  flex-direction: row;
+}
+.v {
+  color: white;
+}
+/* BODY STYLES */
+.bgi {
+  background-image: url(./pexels-craig-adderley-1715092.jpg);
+}
+/* .container {
+  background-color: white;
+} */
+.font {
+  font-family: "Signika", sans-serif;
+}
+
+/* LANDING STYLES */
 #landing {
   background-image: url(./pexels-craig-adderley-1715092.jpg);
   background-position: center;
@@ -10,39 +29,29 @@
   flex-direction: column;
   font-family: "Signika", sans-serif;
 }
+
+/* ABOUT STYLES */
 button {
   padding: 5px;
 }
+#about button {
+  float: right;
+  border: 2px solid black;
+}
+/* NAVBAR STYLES */
 .navbar {
   width: 100%;
   position: sticky;
   top: 0;
   z-index: 1;
 }
-.bgi {
-  background-image: url(./pexels-craig-adderley-1715092.jpg);
+.navbar-nav a:hover {
+  border-bottom: 2px solid rgb(208, 182, 11);
 }
-.container {
-  background-color: white;
-}
-
-.h {
-  display: flex;
-  flex-direction: row;
-}
-.v {
-  color: white;
-}
-.container-fluid {
-  font-family: "Signika", sans-serif;
-}
-.font {
-  font-family: "Signika", sans-serif;
-}
+/* SERVICES STYLES */
 .staff {
   position: relative;
 }
-
 .staff-details {
   background-color: black;
   color: white;
@@ -58,22 +67,25 @@ button {
   opacity: 0;
   transition: all 0.3s linear;
 }
-
 .staff:hover .staff-details {
   opacity: 1;
 }
+
+/* TESTIMONIAL STYLES */
 #testimonials {
   background:
   /* top, transparent red, faked with gradient */ linear-gradient(
       rgba(13, 110, 253, 0.7),
       rgba(13, 110, 253, 0.7)
     ),
-    /* bottom, image */ url(./pexels-ruca-souza-1049764.jpg);
+    /* bottom, image */ url(./pexels-marek-kupiec-3974516.jpg);
   background-size: cover;
   /* background-attachment: fixed; */
   background-position: center;
   background-blend-mode: overlay;
 }
+
+/* PORTFOLIIO STYLES */
 .staff {
   position: relative;
 }
@@ -97,15 +109,83 @@ button {
   opacity: 0;
   transition: all 0.3s linear;
 }
-
 .staff:hover .staff-detail {
   opacity: 1;
 }
-
 .staff img {
   height: 250px;
   width: 250px;
 }
+
+p.ps-5.pb-5 {
+  text-align: right;
+}
+.port_btn button {
+  background-color: black;
+  color: rgb(208, 182, 11);
+  border-radius: 20px;
+  width: 100px;
+  align-items: center;
+  border: none;
+}
+
+/* RESUME STYLES */
+.font img {
+  margin-left: 220px;
+}
+.font h2 {
+  text-align: right;
+}
+.font h5 {
+  text-align: right;
+}
+div.col-lg-4 {
+  padding: 0;
+}
+div.col-lg-2 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+div.col-lg-4 i {
+  border: 3px white dashed;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+/* CONTACT STYLES */
+#contact {
+  border-top: 10px solid rgb(208, 182, 11);
+  background:
+  /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(13, 110, 253, 0.7),
+      rgba(13, 110, 253, 0.7)
+    ),
+    /* bottom, image */ url(./pexels-rodnae-productions-8123856.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-blend-mode: overlay;
+}
+input.form-contrl {
+  background: transparent;
+}
+
+/* FORM STYLES */
+input.form-control {
+  text-align: left;
+}
+textarea.form-control {
+  text-align: left;
+}
+.form-contrl {
+  border: none;
+  border-bottom: 1px solid;
+  width: 50%;
+  height: 50px;
+  background-color: transparent;
+}
+
+/* FOOTER STYLES */
 footer {
   background-color: #293241;
   color: white;
@@ -114,36 +194,29 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
-p.ps-5.pb-5 {
-  text-align: right;
+button.ms {
+  padding-right: 500px;
 }
-
-.font img {
-  margin-left: 220px;
-  
+/* @media (max-width: 1285px) {
+  #about .container {
+    display: flex;
+  }
+  #about .img-fluid {
+    width: 42vh;
+    height: 55vh;
+  }
+  #about .laila {
+    margin-right: 200px;
+  }
 }
-.font h2 {
-  text-align: right;
-}
-.font h5 {
-  text-align: right;
-}
-#about button{
-  float: right;
-  border: 2px solid black;
-  
-}
-
-div.col-lg-4{
-  padding: 0;
-}
-div.col-lg-2{
-  writing-mode: vertical-lr;
-    transform: rotate(180deg);
-} 
-div.col-lg-4 i {
-  border: 3px white dashed;
+@media (max-width: 992px) {
+  #about .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+.col-2 img {
   border-radius: 50%;
-  padding: 20px;
 }

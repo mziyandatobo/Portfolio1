@@ -36,30 +36,35 @@
     </section>
   </div>
     <div class="container">
-    <nav class=" bg-dark navbar navbar-expand-lg navbar-light bg-light" style="height:13vh ;width">
+    <nav class=" bg-dark navbar navbar-expand-lg navbar-light bg-light" style="height:13vh ;">
       <div class="container-fluid ms-5 ps-5">
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="#navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class=" ms-5 ps-5 text-light nav-link active" aria-current="page" href="#">HOME</a>
-            <a class=" ms-3 text-light nav-link" href="#">ABOUT</a>
-            <a class="  ms-3  text-light nav-link" href="#">SERVICES</a>
-            <a class="  ms-3  text-light nav-link" href="#">PORTFOLIO</a>
-            <a class="  ms-3  text-light nav-link" href="#">TESTIMONIAL</a>
-            <a class="  ms-3  text-light nav-link" href="#">RESUME</a>
-            <a class="  ms-3  text-light nav-link" href="#">CONTACT</a>
+            <a class=" ms-5 ps-5 text-light nav-link active" aria-current="page" href="#landing">HOME</a>
+            <a class=" ms-3 text-light nav-link" href="#about">ABOUT</a>
+            <a class="  ms-3  text-light nav-link" href="#services">SERVICES</a>
+            <a class="  ms-3  text-light nav-link" href="#testimonials">TESTIMONIALS</a>
+            <a class="  ms-3  text-light nav-link" href="#portfolio">PORTFOLIO</a>
+            <a class="  ms-3  text-light nav-link" href="#resume">RESUME</a>
+            <a class="  ms-3  text-light nav-link" href="#contact">CONTACT</a>
           </div>
+          <form class="d-flex">
+            <button class="btn text-white border-start" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
         </div>
       </div>
     </nav>
-
-    <section id="about">
-      <div class="container mt-5 pt-5">
-        <div class="row">
-          <div class="col-lg-4"> 
+    <section id="about" class="bg-light">
+      <div class="container mt-5 pt-5 text-center">
+        <div class="row ">
+          <div class="col-lg-4 "> 
             <div class="font text-center ms-5 ps-5 ">
             <h2 class="ms-4.5 mt-5">Mziyanda Tobo</h2>
             <h5 class="text-warning ms-5 ps-5 mb-4">WEB DEVELOPER</h5>
-            <img src="./yellow.PNG"  alt="">
+            <img class="laila" src="./yellow.PNG" style="width:70px" alt="">
           </div>
             <p class="ps-5 pb-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis fugit quam ratione! Corporis distinctio error, architecto libero tenetur assumenda temporibus reprehenderit earum dolores velit quod? Quod expedita officiis rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laudantium dolores odio veritatis, dolor similique, saepe magnam excepturi beatae rem quis magni amet ipsa sit, nihil dicta ipsum et voluptas. 
@@ -85,7 +90,7 @@
               src="https://picsum.photos/600?random=1"
             />
           </div>
-          <div class="col-lg-4 mt-5 pt-5 ps-5 text-center font">
+          <div class="col-lg-4 mt-5  ps-5 text-center ">
             <div class="h ms-5 ps-5">
             <p class="">HTML</p>
             <p class="text-warning ms-3">(90%)</p>
@@ -142,7 +147,7 @@
                 aria-valuemax="100"
               ></div>
             </div>
-            <div class="mt-5 me-5 pe-5">
+            <div class="mt-5 pe-5">
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/mziyanda-tobo-a315a9238/"
@@ -157,42 +162,42 @@
             </div>
           </div>
         </div>
-        <div class="container bg-dark mt-4 pe-5" style="height: 30vh; width: 75vw;">
-          <div class="row text-light text-center">
-            <div class="col-lg-4 mt-5 pt5">
-              <h5 class="pe-5"> <i class="fa-solid fa-phone" style="font-size: 40px;"></i> Phone Number</h5>
-             +27 76 605 7439
-              <p>+27 66 455 5865</p>
-            </div>
-            <div class="col-lg-4 mt-5 pt5">
-              <h5 class="pe-5 me-5"> <i class="fa-solid fa-address-card" style="font-size: 40px;"></i> User Address</h5>
-              314 Inam Haron Rd
-              <p>Landsdowne, Cape Town 7780</p>
-            </div>
-            <div class="col-lg-4 mt-5 pt5">
-              <h5 class="pe-5 me-5"> <i class="fa-solid fa-envelope" style="font-size: 40px;"></i> Email Address</h5>
-              mziyandatobo@gamil.com
-              <p>tobomziyanda@gmail.com</p>
-            </div>
+      </div>
+      <div class="container bg-dark mt-4 pe-5" style="height: fit-content; width: fit-content;">
+        <div class="row text-light text-center">
+          <div class="col-lg-4 mt-5 pt5">
+            <h5 class="pe-5"> <i class="fa-solid fa-phone" style="font-size: 40px;"></i> Phone Number</h5>
+           +27 76 605 7439
+            <p>+27 66 455 5865</p>
+          </div>
+          <div class="col-lg-4 mt-5 pt5">
+            <h5 class="pe-5 me-5"> <i class="fa-solid fa-address-card" style="font-size: 40px;"></i> User Address</h5>
+            314 Inam Haron Rd
+            <p>Landsdowne, Cape Town 7780</p>
+          </div>
+          <div class="col-lg-4 mt-5 pt5">
+            <h5 class="pe-5 me-5"> <i class="fa-solid fa-envelope" style="font-size: 40px;"></i> Email Address</h5>
+            mziyandatobo@gamil.com
+            <p>tobomziyanda@gmail.com</p>
           </div>
         </div>
       </div>
     </section>
-    <section id="services">
-      <div class="container vh-100">
+    <!-- <section id="services">
+      <div class="container ">
         <div>
         <h1 class="font text-center mt-5 pt-5">Our Services</h1>
         <p class="text-center ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores iste</p>
       </div>
       <div class="container">
       <div class="row ">
-        <div class="col-sm-3"><div class="staff">
+        <div class="col-lg-3 col-md-6 col-sm-12"><div class="staff">
           <img class="img-fluid" src="./1.PNG" />
               <div class="staff-details ">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum sint consectetur ipsa fugiat temporibus inventore, qu.</p>
               </div>
             </div></div>
-        <div class="col-sm-3">
+        <div class="col-lg-3 col-md-6  col-sm-12">
           <div class="staff">
             <img class="img-fluid" src="./2.PNG" />
             <div class="staff-details ">
@@ -200,7 +205,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="staff">
             <img class="img-fluid" src="./6.PNG" />
             <div class="staff-details ">
@@ -208,7 +213,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 ">
           <div class="staff">
             <img class="img-fluid" src="./4.PNG" />
             <div class="staff-details ">
@@ -218,13 +223,13 @@
         </div>
       </div>
       <div class="row ">
-        <div class="col-sm-3"><div class="staff">
+        <div class="col-lg-3 col-md-6  col-sm-12"><div class="staff">
           <img class="img-fluid" src="./10.PNG" />
               <div class="staff-details ">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum sint consectetur ipsa fugiat temporibus inventore, qu.</p>
               </div>
             </div></div>
-        <div class="col-sm-3">
+            <div class="col-lg-3 col-md-6  col-sm-12">
           <div class="staff">
             <img class="img-fluid" src="./11.PNG" />
             <div class="staff-details ">
@@ -232,7 +237,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-lg-3 col-md-6  col-sm-12">
           <div class="staff">
             <img class="img-fluid" src="./12.PNG" />
             <div class="staff-details ">
@@ -240,7 +245,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-lg-3 col-md-6  col-sm-12">
           <div class="staff">
             <img class="img-fluid" src="./13.PNG" />
             <div class="staff-details ">
@@ -251,8 +256,8 @@
       </div>
       </div>
     </div>
-    </section>
-    <section id="testimonials" class="py-5 mt-5 min-vh-75">
+    </section> -->
+    <section id="testimonials" class="py-5 mt-5 min-vh-75 ">
       <div class="container-1 text-center text-white">
           <h1 class="mb-2 text-center">Testimonials</h1>
           <div id="testimonialSlider" class="carousel slide" data-bs-ride="carousel">
@@ -265,34 +270,90 @@
                 <div class="carousel-item pb-5 text-center active ">
                   <div class="container-fluid">
                     <div class="row text-align-center">
-                      <div class="col-6">
+                      <div class="col-md-6">
                         <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
                       </div>
-                      <div class="col-2">
-                        <img src="/pexels-ruca-souza-1049764.jpg" class="rounded-circle mb-5" style="width: 250px; height: 180px;" alt="Person">
-                      </div>
-                      
-                      <div class="col-4">
-                        Person name and occupation
+                      <div class="col-md-6 d-flex">
+                        <img src="/pexels-ruca-souza-1049764.jpg" class="d-none d-lg-block mb-5 rounded-circle" style="width: 250px; height: 180px;" alt="Person">
+                        <div class="">
+                          <h1>Jason Wan</h1>
+                         </div>
                       </div>
                     </div>
                   </div>
                   
                 </div>
-                <div class="carousel-item pb-5 text-center">
-                  <div>
-                      <img src="/pexels-ruca-souza-1049764.jpg" class="rounded-circle mb-5" style="width: 250px; height: 180px;" alt="Person">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                <div class="carousel-item pb-5 text-center ">
+                  <div class="container-fluid">
+                    <div class="row text-align-center">
+                      <div class="col-md-6">
+                        <h5>Second slide label</h5>
+                      </div>
+                      <div class="col-md-6 d-flex">
+                        <img src="/Carla (2).JPG" class="d-none d-lg-block mb-5 rounded-circle" style="width: 250px; height: 180px;" alt="Person">
+                        <div class="">
+                          <h1>Carla Lawrence</h1>
+                        </div>
+                      </div>
+                      
+                      
+                    </div>
                   </div>
+                  
                 </div>
-                <div class="carousel-item pb-5 text-center">
-                  <div>
-                      <img src="/pexels-craig-adderley-1715092.jpg" class="rounded-circle mb-5" style="width: 250px; height: 180px;" alt="Person">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                <div class="carousel-item pb-5 text-center ">
+                  <div class="container-fluid">
+                    <div class="row text-align-center">
+                      <div class="col-md-6">
+                        <h5>Third slide label</h5>
+                      </div>
+                      <div class="col-md-6 d-flex">
+                        <img src="/Zachary (2).JPG" class="d-none d-lg-block mb-5 rounded-circle" style="width: 250px; height: 180px;" alt="Person">
+                        <div class="">
+                          <h1>Zachary Williams</h1>
+                        </div>
+                      </div>
+                      
+                      
+                    </div>
                   </div>
+                  
+                </div>
+                <div class="carousel-item pb-5 text-center ">
+                  <div class="container-fluid">
+                    <div class="row text-align-center">
+                      <div class="col-md-6">
+                        <h5>Fourth slide label</h5>
+                      </div>
+                      <div class="col-md-6 d-flex">
+                        <img src="/Sindile (1).JPG" class="d-none d-lg-block mb-5 rounded-circle" style="width: 250px; height: 180px;" alt="Person">
+                        <div class="">
+                          <h1>Sindile Kula</h1>
+                        </div>
+                      </div>
+                      
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="carousel-item pb-5 text-center ">
+                  <div class="container-fluid">
+                    <div class="row text-align-center">
+                      <div class="col-md-6">
+                        <h5>Fifth slide label</h5>
+                      </div>
+                      <div class="col-md-6 d-flex">
+                        <img src="/Raaid (2).JPG" class="d-none d-lg-block mb-5 rounded-circle" style="width: 250px; height: 180px;" alt="Person">
+                        <div class="">
+                          <h1>Raaid Abdullatief</h1>
+                        </div>
+                      </div>
+                      
+                      
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#testimonialSlider" data-bs-slide="prev">
@@ -307,7 +368,7 @@
       </div>
   </section>
     </section>
-    <section id="portfolio" class="vh-100">
+    <section id="portfolio" class="bg-light">
       <div class="container">
         <div>
           <h1 class="font text-center mt-5 pt-5">Portfolio</h1>
@@ -331,58 +392,73 @@
       <div class="col-lg-9 d-flex flex-wrap">
         <div class="row ">
           <div class="col-md-4">
-          <div class="staff">
+          <div class="staff " style="width:fit-content;">
             <img class="img-fluid" src="./Calculator.PNG" />
-            <div class="staff-detail">
+            <div class="staff-detail text-warning text-center">
              <h3>Calculator</h3>
+             <div class="port_btn d-flex justify-content-center">
+              <a href="https://comforting-mochi-cd705b.netlify.app/" class="me-3"><button>Live</button></a>
+              <a href="https://github.com/mziyandatobo/Calculator.git"><button>Github</button></a>
+             </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="staff">
+          <div class="staff" style="width:fit-content;">
             <img class="img-fluid" src="./BF.PNG" />
-            <div class="staff-detail">
+            <div class="staff-detail  text-warning text-center">
              <h3>Booking Form</h3>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="staff">
+          <div class="staff" style="width:fit-content;">
             <img class="img-fluid" src="./Holiday Destination.PNG" />
-            <div class="staff-detail">
+            <div class="staff-detail  text-warning text-center">
               <h3>Holiday Destination</h3>
+              <div class="port_btn d-flex justify-content-center">
+                <a href="https://rainbow-piroshki-2abfd9.netlify.app/" class="me-3"><button>Live</button></a>
+                <a href=" https://github.com/mziyandatobo/holiday_destination.git"><button>Github</button></a>
+               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="row mt-4">
         <div class="col-md-4">
-        <div class="staff">
-          <img class="img-fluid" src="./Calculator.PNG" />
-          <div class="staff-detail">
-            <h5>Name</h5>
-            <p>Occupation</p>
-            links
+        <div class="staff" style="width:fit-content;">
+          <img class="img-fluid" src="./Restaurant.PNG" />
+          <div class="staff-detail  text-warning text-center">
+            <h3>Restaurant</h3>
+            <div class="port_btn d-flex justify-content-center">
+              <a href="https://resplendent-haupia-735690.netlify.app/" class="me-3"><button>Live</button></a>
+              <a href="https://github.com/mziyandatobo/restaurant.git"><button>Github</button></a>
+             </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="staff">
-          <img class="img-fluid" src="./Calculator.PNG" />
-          <div class="staff-detail">
-            <h5>Name</h5>
-            <p>Occupation</p>
-            links
+        <div class="staff" style="width:fit-content;">
+          <img class="img-fluid" src="./dog.PNG" />
+          <div class="staff-detail  text-warning text-center">
+            <h3>Portfolio</h3>
+            <div class="port_btn d-flex justify-content-center">
+              <a href="https://melodious-alfajores-d757e9.netlify.app/" class="me-3"><button>Live</button></a>
+              <a href="https://github.com/mziyandatobo/mock-portfolio.git"><button>Github</button></a>
+             </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="staff">
-          <img class="img-fluid" src="./Calculator.PNG" />
-          <div class="staff-detail">
-            <h5>Name</h5>
-            <p>Occupation</p>
-            links
+        <div class="staff" style="width:fit-content;">
+          <img class="img-fluid" src="./pexels-negative-space-160107.jpg" />
+          <div class="staff-detail  text-warning text-center">
+            <h3>First Project</h3>
+            <div class="port_btn d-flex justify-content-center">
+              <a href="https://silly-froyo-6ed675.netlify.app/" class="me-3"><button>Live</button></a>
+              <a href="https://github.com/mziyandatobo/portfolio.git"><button>Github</button></a>
+             </div>
+            
           </div>
         </div>
       </div>
@@ -390,10 +466,10 @@
     </div>
   </div>
     </section>
-    <section id="resume" class="">
+    <section id="resume" class="bg-light">
       <div class="container">
         <h1 class="font text-center mt-5 pt-5">Resume</h1>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem.</p>
+        <p class="text-center">Get to know me better</p>
         <div class="row mt-5 pt-5 ms-2">
           <div class="col-lg-6 ps-5 pt-5">
             <i class="fa-solid fa-graduation-cap" style="font-size:50px;"></i>
@@ -410,21 +486,21 @@
               </ul>
             </p>
           </div>
-          <div class="col-lg-2 bg-dark text-warning d-flex justify-content-center align-items-center" style="width:9vw ;height:60vh; font-size: 30px;">
+          <div class="col-lg-2 bg-dark text-warning text-center d-none d-lg-block" style="width:9vw ;height:60vh; font-size: 30px;">
             2017 - 2018
           </div>
           <div class="  col-lg-4">
-            <img  src="./pexels-littlehampton-bricks-4373152.jpg" style="width: 34vw ;height:60vh" class="pe-4" alt="">
+            <img  src="./pexels-pixabay-261909.jpg" style="width: 34vw ;height:60vh" class="pe-4 d-none d-lg-block" alt="">
           </div>
         </div>
         <div class="row pe-5">  
           <div class="col-lg-5">
-            <img  src="./pexels-littlehampton-bricks-4373152.jpg" style="width:37vw ;height:60vh" class="pe-3" alt="">
+            <img  src="./pexels-pixabay-289737.jpg" style="width:37vw ;height:60vh" class="pe-3 d-none d-lg-block" alt="">
           </div>
-          <div class="col-lg-2 bg-dark text-warning d-flex justify-content-center align-items-center" style="width:9vw ;height:60vh ;font-size: 30px">
+          <div class="col-lg-2 bg-dark text-warning text-center d-none d-lg-block" style="width:9vw ;height:60vh ;font-size: 30px">
             2019 - 2021
           </div>
-          <div class="col-lg-5 ps-5 pt-5">
+          <div class="col-lg-5 ps-5  ">
             <i class="fa-solid fa-graduation-cap" style="font-size:50px;"></i>
             <h2 class="mt-4" >Education</h2>
             <p class="font">IN GROENVLEI SECONDARY SCHOOL</p>
@@ -451,29 +527,51 @@
               2021 : Assisted in the voting elections.
             </p>
           </div>
-          <div class="col-lg-2 bg-dark text-warning d-flex justify-content-center align-items-center" style="width:9vw ;height:60vh; font-size: 30px;">
+          <div class="col-lg-2 bg-dark text-warning text-center d-none d-lg-block" style="width:9vw ;height:60vh; font-size: 30px;">
             2010 - 2021
           </div>
           <div class="  col-lg-4">
-            <img  src="./pexels-littlehampton-bricks-4373152.jpg" style="width: 34vw ;height:60vh" class="pe-4" alt="">
+            <img  src="./pexels-christina-morillo-1181396.jpg" style="width: 34vw ;height:60vh" class="pe-4 d-none d-lg-block" alt="">
           </div>
         </div>
       </div>
     </section>
-    <section id="contact" class="vh-100">
-      <div class="container mt-5 pt-5">
-        <div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.267418954597!2d18.49050991744385!3d-33.985664299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1651737110702!5m2!1sen!2sza" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.267418954597!2d18.49050991744385!3d-33.985664299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1651737110702!5m2!1sen!2sza" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <section id="contact" class="py-5 vh-100">
+      <div class="container-fluid mt-5 pt-5">
+       
+        <h1 class="font text-center ">CONTACT US</h1>
+        <div class="row g-3 ">
+          <div class="col text-center">
+            <input type="text" class="form-contrl" placeholder="Name" aria-label="Name">
+          </div>
+          <div>
+            <div class="col text-center">
+              <input type="text" class="form-contrl" placeholder="City" aria-label="City">
+            </div>
+          </div>
+          <div>
+            <div class="col text-center">
+              <input type="text" class="form-contrl" placeholder="Email" aria-label="Email">
+            </div>
+          </div>
+          <div class="col text-center">
+            <textarea class="form-contrl" style="height: 150px;" name="Message"  placeholder="Message"></textarea>
+          </div>
+          <div class="text-center mt-1 mb-5 px-5">
+            <button type="submit" style="width: 30%;" class="ms btn">Send</button>
+            </div>
         </div>
-        <h1 class="font text-center mt-5 pt-5">CONTACT US</h1>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
-    </section>
+    </section> 
+    <section>
     <footer class="bg-dark"><p>© Copyright 2022. All Rights Reserved</p>
-      <p>Designed by  <b>Mziyanda Tobo</b> </p>
+      <p>Designed by  <b class="text-warning">Mziyanda Tobo</b> </p>
   </footer>
-
+</section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
