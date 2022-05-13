@@ -8,6 +8,7 @@
 }
 /* BODY STYLES */
 .bgi {
+  
   background-image: url(./pexels-craig-adderley-1715092.jpg);
 }
 /* .container {
@@ -78,7 +79,7 @@ button {
       rgba(13, 110, 253, 0.7),
       rgba(13, 110, 253, 0.7)
     ),
-    /* bottom, image */ url(./pexels-marek-kupiec-3974516.jpg);
+    /* bottom, image */ url(./pexels-suzy-hazelwood-6161473.jpg);
   background-size: cover;
   /* background-attachment: fixed; */
   background-position: center;
