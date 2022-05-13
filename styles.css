@@ -8,7 +8,6 @@
 }
 /* BODY STYLES */
 .bgi {
-  
   background-image: url(./pexels-craig-adderley-1715092.jpg);
 }
 /* .container {
@@ -155,7 +154,7 @@ div.col-lg-4 i {
 
 /* CONTACT STYLES */
 #contact {
-  border-top: 10px solid rgb(208, 182, 11);
+  border-top: 15px solid rgb(208, 182, 11);
   background:
   /* top, transparent red, faked with gradient */ linear-gradient(
       rgba(13, 110, 253, 0.7),
@@ -220,4 +219,12 @@ button.ms {
 } */
 .col-2 img {
   border-radius: 50%;
+}
+
+/* icon hover effetcs */
+
+.fa-github:hover {
+
+  
+  color: blueviolet;
 }
