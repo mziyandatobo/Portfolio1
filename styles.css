@@ -1,14 +1,15 @@
 /* ??? */
 .h {
-  display: flex;
+ 
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .v {
   color: white;
   
 }
 .lm {
-  font-size: 55px;
+  font-size: 52px;
 }
 /* BODY STYLES */
 .bgi {
@@ -198,9 +199,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
-button.ms {
+/* button.ms {
   padding-right: 500px;
-}
+} */
 /* @media (max-width: 1285px) {
   #about .container {
     display: flex;
